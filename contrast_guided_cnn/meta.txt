@@ -1,0 +1,15 @@
+EXPERIMENT:
+
+UAENet CNN
+LOSS FUNCTIONS: Exposure loss with CCI, TVD LOSS
+
+weights = {
+    'Luac': 1.0,    # Weight for underwater color adaptive correction loss
+    'Lexp': 0.5,    # Weight for exposure control loss
+    'Ltvd': 0.8,    # Weight for illumination smoothness loss
+    'Lspa': 0.3     # Weight for spatial consistency loss
+}
+
+RESULTS: need smoothness, requires Tvd loss function next
+
+Remarks: loss has reduced greatly, pretty good in those terms.

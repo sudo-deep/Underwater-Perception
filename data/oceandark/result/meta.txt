@@ -1,0 +1,3 @@
+Model: DCE
+Architecture: Default
+Weights: Oceandark trained epoch99
